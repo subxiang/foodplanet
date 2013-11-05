@@ -1,0 +1,2 @@
+serviceClass: com.darkart.foodmap.client.GreetingService
+path: 3E30AC8AED627EA1176B3FC4B3E1580B.gwt.rpc
