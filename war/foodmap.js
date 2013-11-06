@@ -51,6 +51,9 @@ function createFood(url) {
 
 function initialize() {
 	createMap();
+	
+	var ROOT = '/_ah/api';
+	gapi.client.load('foodendpoint', 'v1', function() {}, ROOT);
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
